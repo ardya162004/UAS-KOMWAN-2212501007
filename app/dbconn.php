@@ -2,9 +2,9 @@
 $servername = "db"; 
 $username = "root";
 $password = "root";
-$dbname = "uas_cloud_2212501007"; 
+$dbname = "uas_cloud_2212501338"; 
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli("db", "root", "root", "uas_cloud_2212501338");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

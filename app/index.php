@@ -52,12 +52,12 @@ $result = $conn->query("SELECT * FROM mahasiswa");
         }
 
         .btn-primary {
-            background-color: #a97155;
+            background-color:rgb(90, 52, 0);
             border: none;
         }
 
         .btn-primary:hover {
-            background-color: #8a5c41;
+            background-color:rgb(30, 38, 127);
         }
 
         .btn-danger {
@@ -70,14 +70,14 @@ $result = $conn->query("SELECT * FROM mahasiswa");
         }
 
         h2 {
-            color: #5a4033;
+            color:rgb(24, 10, 2);
             text-align: center;
             font-weight: 700;
             margin-top: 30px;
         }
 
         .table thead {
-            background-color: #a97155;
+            background-color: rgb(24, 10, 2);
             color: #fff;
         }
     </style>
